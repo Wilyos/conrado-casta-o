@@ -6,13 +6,13 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;;
+  font-family: "Montserrat", sans-serif;
 }
 :root {
   --bg-color: #080808;
   --second-bg-color: #101010;
   --text-color: white;
-  --main-color: #7ABA49;
+  --main-color: #3AA637;
 }
 html {
   font-size: 60%;
@@ -154,7 +154,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem 0;
 }
 
@@ -176,7 +176,7 @@ section{
   border: 2px solid var(--main-color);
   border-radius: 50%;
   color: var(--main-color);
-  margin: 3rem 5rem;
+  margin: 3rem 3rem;
   transition: 0.3s ease-in-out;
 }
 .social-icons a:hover{
